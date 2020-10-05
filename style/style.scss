@@ -1,0 +1,131 @@
+
+
+$whitecolor : white ;
+$bluecolor: green;
+$lightgreycolor : lightgrey;
+$darkgreycolor: #2A282E;
+
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
+    color: $darkgreycolor;
+}
+
+a {
+    text-decoration: none;
+    color: $darkgreycolor
+}
+
+.navcon {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+nav {
+    position: fixed;
+    width: 100%;
+    background-color:$whitecolor;
+    ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+        li {
+        float: right;
+        padding: 30px;
+        .active {
+            border-bottom: 3px solid yellow;
+        }
+        a {
+            display: block;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: $darkgreycolor;
+        }
+        }
+    }
+
+}
+}
+.nav a:active {
+    color: green;
+    border: blue ;
+  }
+
+ .nav a:visited {
+    color: purple;
+  }
+
+.intro {
+    background-color: $bluecolor;
+    height: 400px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    color: $whitecolor;
+    h1 {
+    font-size: 40px;
+    }
+    p {
+        text-align: center;
+        padding-left : 25%;
+        padding-right: 25%;
+        padding-top: 30px;
+    }
+
+}
+
+.team {
+    max-width: 100%;
+    margin-top: 20px;
+    h2 {
+        text-align: center;
+        font-weight: 800 ;
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 600px) {
+.teamflex {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}
+
+.box {
+    text-align: center;
+    padding: 15px;
+    span {
+        color: grey
+
+    }
+
+}
+
+footer {
+    height: 100px;
+    float: right;
+    display: inline;
+    background-color: $lightgreycolor ;
+    width: 100%;
+    ul {
+        list-style: none;
+        padding-right: 50px;
+        margin-top : 50px;
+        li {
+            float: right;
+            padding: 15px;
+        }
+    }
+}

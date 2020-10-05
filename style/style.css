@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  line-height: 1.4;
+  font-family: "Roboto", sans-serif;
+  color: #2A282E;
+}
+
+a {
+  text-decoration: none;
+  color: #2A282E;
+}
+
+.navcon {
+  height: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.navcon nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+.navcon nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navcon nav ul li {
+  float: right;
+  padding: 30px;
+}
+.navcon nav ul li .active {
+  border-bottom: 3px solid yellow;
+}
+.navcon nav ul li a {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #2A282E;
+}
+
+.nav a:active {
+  color: green;
+  border: blue;
+}
+
+.nav a:visited {
+  color: purple;
+}
+
+.intro {
+  background-color: green;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  color: white;
+}
+.intro h1 {
+  font-size: 40px;
+}
+.intro p {
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 30px;
+}
+
+.team {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.team h2 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+  .teamflex {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.box {
+  text-align: center;
+  padding: 15px;
+}
+.box span {
+  color: grey;
+}
+
+footer {
+  height: 100px;
+  float: right;
+  display: inline;
+  background-color: lightgrey;
+  width: 100%;
+}
+footer ul {
+  list-style: none;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+footer ul li {
+  float: right;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
