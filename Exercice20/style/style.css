@@ -1,0 +1,68 @@
+body {
+  color: #20161E;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  letter-spacing: 2px;
+}
+
+.container {
+  padding: 20px;
+  border: solid 3px grey;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 40px;
+  height: 250px;
+  width: 600px;
+}
+
+.quote {
+  color: #b3d5bc;
+  font-size: 60px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.text {
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  top: -150px;
+}
+
+.quotetext {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}
+.quotetext .code {
+  color: #b3d5bc;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  line-height: 0.8;
+  font-size: 12px;
+}
+.bottom img {
+  border-radius: 50%;
+}
+.bottom .name {
+  padding-left: 15px;
+}
+.bottom .name .Author {
+  text-align: left;
+  color: #20161E;
+  font-weight: 500;
+}
+.bottom .name .title {
+  text-align: left;
+  color: darkgrey;
+  font-weight: 200;
+  padding-left: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

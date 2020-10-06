@@ -1,0 +1,74 @@
+$colorblack : #20161E ;
+$colorgreen : #b3d5bc ;
+$colorgrey : darkgrey;
+
+$font-roboto : 'Roboto', sans-serif ;
+$font-open : 'Open Sans', sans-serif;
+
+
+body {
+    color : $colorblack;
+    font-family: $font-roboto;
+    line-height: 1.4;
+    letter-spacing: 2px;
+}
+
+.container {
+    padding: 20px;
+    border: solid 3px grey;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 40px;
+    height: 250px;
+    width: 600px;
+}
+
+.quote {
+    color: $colorgreen ;
+    font-size: 60px;
+    position: relative;
+    top: 5px ;
+    left: 5px ;
+}
+.text {
+    text-align: center;
+    padding-top: 80px;
+    padding-left : 100px;
+    padding-right : 100px;
+    position : relative;
+    top: -150px;
+}
+
+.quotetext {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    .code {
+        color : $colorgreen;
+    }
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    line-height: 0.8;
+    font-size: 12px;
+    img {
+        border-radius: 50%;
+    }
+    .name {
+        padding-left : 15px;
+    
+    .Author {
+        text-align: left;
+        color: $colorblack ;
+        font-weight: 500;
+    }
+    .title {
+        text-align: left;
+        color:$colorgrey ;
+        font-weight: 200;
+        padding-left: 12px;
+    }
+}
+}
