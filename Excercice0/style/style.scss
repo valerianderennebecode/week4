@@ -1,0 +1,120 @@
+
+* {box-sizing: border-box;}
+
+.container {
+    background-color: lightgrey;
+    margin: 15px;
+    border: solid 1px grey;
+    padding : 15px;
+    font-family: 'Roboto', sans-serif ;
+   
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+
+}
+
+
+.firstandlast {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: left;
+    p {
+        color: black;
+        margin-top: -5px;
+        font-size: 12px;
+    }
+    .first {
+        margin-right: 10px;
+    }
+    #NameFirst {
+        width: 150px;
+    }
+    #NameLast {
+        width : 200px;
+    }
+    #gender {
+        width : 200px;
+    }
+}
+
+.second-part {
+    display: flex;
+    flex-wrap: wrap;
+    .gender {
+        width: 250px;
+        padding-right: 20px;
+    }
+    .dob {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        width: 250px;
+        font-weight: 500;
+        .all {
+            display: flex;
+            text-align: center;
+            p {
+                margin-top: -5px
+            }
+            #MM {
+                width:60px;
+            }
+            #DD {
+             width:60px;
+             margin-left: 4px;
+            }
+            #YYYY {
+              width:90px;
+              margin-left: 4px;
+            }
+        }
+    }
+}
+
+/* EMERGENCY CONTACT */
+
+.EC-1 {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: left;
+    .EC-11 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 250px;
+        .lastfirst {
+            display: flex;
+            flex-direction: row;
+            padding-right: 20px;
+            p {
+                color: black;
+                margin-top: -5px;
+                font-size: 12px;
+            }
+            .last {
+                margin-left: 10px;
+            }
+        }
+    }
+    .EC-12 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 250px;
+        flex-direction: column;
+    }
+}
+
+

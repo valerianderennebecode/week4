@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: lightgrey;
+  margin: 15px;
+  border: solid 1px grey;
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.firstandlast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.firstandlast p {
+  color: black;
+  margin-top: -5px;
+  font-size: 12px;
+}
+.firstandlast .first {
+  margin-right: 10px;
+}
+.firstandlast #NameFirst {
+  width: 150px;
+}
+.firstandlast #NameLast {
+  width: 200px;
+}
+.firstandlast #gender {
+  width: 200px;
+}
+
+.second-part {
+  display: flex;
+  flex-wrap: wrap;
+}
+.second-part .gender {
+  width: 250px;
+  padding-right: 20px;
+}
+.second-part .dob {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 250px;
+  font-weight: 500;
+}
+.second-part .dob .all {
+  display: flex;
+  text-align: center;
+}
+.second-part .dob .all p {
+  margin-top: -5px;
+}
+.second-part .dob .all #MM {
+  width: 60px;
+}
+.second-part .dob .all #DD {
+  width: 60px;
+  margin-left: 4px;
+}
+.second-part .dob .all #YYYY {
+  width: 90px;
+  margin-left: 4px;
+}
+
+/* EMERGENCY CONTACT */
+.EC-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.EC-1 .EC-11 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 250px;
+}
+.EC-1 .EC-11 .lastfirst {
+  display: flex;
+  flex-direction: row;
+  padding-right: 20px;
+}
+.EC-1 .EC-11 .lastfirst p {
+  color: black;
+  margin-top: -5px;
+  font-size: 12px;
+}
+.EC-1 .EC-11 .lastfirst .last {
+  margin-left: 10px;
+}
+.EC-1 .EC-12 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
